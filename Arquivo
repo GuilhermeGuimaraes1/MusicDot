@@ -1,0 +1,33 @@
+<h1> pode ser utiizada uma vez em casa página porque nao pode existir mais de um conteudo mais importe da pagina
+
+p{
+    text-align: justify;
+    text-emphasis: underline;
+    background-color: #15420e;
+    color: #fdfdfd;;
+}
+body {
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    border: 1px solid red;
+}
+h1{
+    border-top: 1px solid red; /* borda vermelha em cima */
+    border-right: 1px solid red; /* borda vermelha à direita */
+    border-bottom: 1px solid red; /* borda vermelha embaixo */
+    border-left: 1px solid red; /* borda vermelha à esquerda */
+    color: rgb(255, 200, 0); /*laranja*/
+}
+*** para espaçamento do html usa padding e margin
+redimensionar elementos podemos usar as propriedades de largura e altura ou width e height
+
+Margin e espaçamento externo e padding espaçamentos internos
+
+p{
+    /*
+    padding-top , padding-right ,
+    padding-bottom e padding-left . Para facilitar a memorização dessa ordem, basta lembrar que os
+    valores são aplicados em sentido horário.
+    */
+    padding: 10px 20px 15px 5px;
+    background-color: red;
+}
