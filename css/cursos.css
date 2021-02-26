@@ -69,7 +69,7 @@
     margin-bottom: 1rem;
     display: grid;
     grid-template-columns: 7rem 7rem;
-    grid-auto-rows: repeat(5, 4.5rem);
+    grid-template-rows: repeat(5, 4.5rem);
     grid-gap: .5rem;
     text-align: center;
 
@@ -134,6 +134,14 @@
 
 .cursos--cordas{
     background-image: url("../img/icone-cordas.svg");
+}
+
+.cursos--gaita{
+    background-image: url("../img/icones-gaita.svg");
+}
+
+.cursos--flauta{
+    background-image: url("../img/icones-flauta.svg");
 }
 
 .cursos__lista img{
