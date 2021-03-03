@@ -1,3 +1,5 @@
+/* voltar para arrumar */
+
 .chamada__youtube{
     background-color: #2e4255;
     display: grid;
@@ -39,7 +41,7 @@
 
 .canal__texto{
     font-size: .6rem;
-    letter-spacing: .8rem;
+    letter-spacing: .5rem;
     line-height: 12px;
     margin-bottom: 1rem;
 }
@@ -81,4 +83,71 @@
 .chamada__youtube--video1, .chamada__youtube--video2{
     background-size: cover;
     width: 100%;
+}
+
+@media(min-width: 768px){
+    .chamada__youtube{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "chamada chamada"
+        "video1 video1";
+    }
+
+    .chamada__informacao{
+        padding: 2rem 17%;
+        box-sizing: border-box;
+        grid-area: chamada;
+    }
+
+    .--icone-youtube::before{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .chamada__youtube--video1{
+        grid-area: video1;
+    }
+
+    .chamada__youtube--video2{
+        grid-area: video2;
+    }
+
+    .canal__titulo{
+        font-size: 1.5rem;
+    }
+
+    .descricao__texto{
+        font-size: .8rem;
+    }
+}
+
+@media(min-width:1200px){
+    .youtube__informacao{
+        padding: 4rem 20%;
+    }
+
+    .icone--youtube::before{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .canal__texto{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .video__descricao{
+        width: 75%;
+        text-align: left;
+    }
+
+    .descricao__titulo{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .descricao__texto{
+        font-size: .9rem;
+    }
 }
