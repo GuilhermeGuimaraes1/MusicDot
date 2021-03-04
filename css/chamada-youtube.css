@@ -90,7 +90,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "chamada chamada"
-        "video1 video1";
+        "video1 video2";
     }
 
     .chamada__informacao{
