@@ -41,7 +41,7 @@
 
 .canal__texto{
     font-size: .6rem;
-    letter-spacing: .5rem;
+    letter-spacing: 8px;
     line-height: 12px;
     margin-bottom: 1rem;
 }
